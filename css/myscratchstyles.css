@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(51, 28, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol{
+    color: whitesmoke;
+}
+h1{
+    color: whitesmoke
+}
+a {
+    color: white; /* Sets link text color to white */
+    text-decoration: none; /* Removes default underline */
+}
+a:visited {
+    color: white; /* Ensures visited links remain white */
+}
+a:hover {
+    color: lightgray; /* Optional: Makes link lighter on hover */
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+a:active {
+    color: white; /* Ensures active links stay white */
+}
+nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px;
+}
+.nav-list {
+    display: flex; /* Flexbox for side-by-side layout */
+    justify-content: center; /* Centers items horizontally */
+    list-style: none; /* Removes default list styling */
+    margin: 0;
+    padding: 0;
+}
+.nav-item {
+    margin: 0 15px; /* Adds space between links */
+}
+.nav-link {
+    text-decoration: none; /* Removes underline */
+    color: white; /* White text for contrast */
+    font-size: 30px; /* Professional font size */
+    text-transform: uppercase; /* Matches current text style */
+    transition: color 0.3s ease; /* Smooth hover effect */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #ff9900; /* Highlight color on hover */
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    padding: 10px 20px;
+    color: white;
+}
+.cta .cta-button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta .cta-button:hover {
+    background-color: white;
+    color: #ff9900;
+    cursor: pointer;
+  }
+  
+  .game-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+  }
+h3{
+    color: whitesmoke;
+}
+footer{
+    color: whitesmoke;
+    font-size: 13px;
+    position: relative;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

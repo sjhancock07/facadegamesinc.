@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facade Games Inc.</title>
+    <link rel="stylesheet" href="css/myscratchstyles.css">
+</head>
+<body>
+    <div class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="scratch.html">Scratch</a></li>
+        </ul>
+    </div>
+    <script type='text/javascript'>                   
+        var divElement = document.getElementById('viz1733942949384');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='1500px';vizElement.style.height='1127px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <div class="game-container">
+        <h2>Blackjack</h2>
+        <div id="player-cards">
+        <h2>Your Hand</h2>
+        <div class="cards" id="player-hand"></div>
+        <p id="player-score">Score: 0</p>
+        </div>
+        <div id="computer-cards">
+        <h2>Computer's Hand</h2>
+        <div class="cards" id="computer-hand"></div>
+        <p id="computer-score">Score: 0</p>
+        </div>
+        <h2>Win Tally</h2>
+        <p id="player-wins">Player Wins: 0</p>
+        <p id="computer-wins">Computer Wins: 0</p>
+        <div id="buttons">
+        <button id="hit">Hit</button>
+        <button id="stand">Stand</button>
+        <button id="play-again" style="display: none;">Play Again</button>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="js/blackjack.js"></script>
+</body>
+</html>
